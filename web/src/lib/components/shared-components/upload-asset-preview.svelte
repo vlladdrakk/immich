@@ -103,7 +103,7 @@
   {#if uploadAsset.state === UploadState.ERROR}
     <div class="flex flex-row justify-between">
       <p class="w-full rounded-md py-1 px-2 text-justify text-[10px] text-immich-error">
-        {uploadAsset.error}
+        {uploadAsset.error.message}
       </p>
     </div>
   {/if}
